@@ -1,0 +1,10 @@
+{
+    "dbInfo": {
+        "host": "",
+        "user": "",
+        "password": "",
+        "connectionLimit": 5,
+        "database": ""
+    },
+    "port": 8080
+}

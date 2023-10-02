@@ -1,0 +1,10 @@
+{
+    "dbInfo": {
+        "host": "localhost",
+        "user": "nitro",
+        "password": "H3nrys-1",
+        "connectionLimit": 5,
+        "database": "rocket_db"
+    },
+    "port": 8080
+}

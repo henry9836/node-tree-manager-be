@@ -1,0 +1,13 @@
+{
+"compilerOptions": {
+  "target": "ES6",
+  "module": "CommonJS", // Set the module system to CommonJS, which is what Node.js uses
+  "outDir": "./dist",
+  "rootDir": "./src",
+  "strict": true,
+  "esModuleInterop": true, // Allow using CommonJS modules with import syntax
+  "resolveJsonModule": true // Allow importing JSON files with `import`
+},
+"include": ["src/**/*.ts", "src/**/*.json"], // Include TypeScript and JSON files in these directories
+"exclude": ["node_modules", "dist"] // Exclude certain directories from TypeScript compilation
+}
